@@ -1,0 +1,4 @@
+name: Strasburg Media
+markdown: redcarpet
+pygments: true
+baseurl: /strasburgmedia

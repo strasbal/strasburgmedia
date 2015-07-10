@@ -1,0 +1,177 @@
+@import url(//fonts.googleapis.com/css?family=Bangers);
+
+body {
+  font-family: 'Bangers', Impact, Futura, Arial;
+  text-transform: uppercase;
+  text-shadow: #ffffff -1px 1px, #ffffff -2px 2px, #ffffff -3px 3px, #ffffff -4px 4px, #ffffff -5px 5px;
+}
+
+#header {
+  margin: 1%;
+  margin-bottom: 3%;
+  padding-top: 1%;
+  padding-bottom: 24%;
+  border: 2px solid;
+  outline: 3px solid;
+  outline-offset: 3px;
+  text-align: center;
+  text-transform: uppercase;
+    background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, #bd2d10 0, #f4502f 30%, #ff6e51 50%, #f4502f 70%, #bd2d10 100%);
+  background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px, 100% 100%;
+}
+
+h1 {
+  font-size: 4em;
+  margin-top: 0em;
+  margin-bottom: 1.3em;
+}
+
+h2 {
+  margin-top: 2.5em;
+  margin-bottom: 3.1em;
+  padding-top: 0em;
+  font-size: 2em;
+}
+
+hr {
+  border: 3px solid black;
+  outline: 2px solid white;
+  outline-offset: 2px solid;
+  background-color: white;
+  width: 95%;
+  height: 1em;
+  margin: center;
+  margin-top: -5em;
+  margin-bottom: -4em;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  margin: 1%;
+  margin-bottom: 3%;
+  border: 2px solid;
+  outline: 3px solid;
+  outline-offset: 3px; 
+  font-size: 1.8em;
+}
+
+.text_holder {
+  margin: 3%;
+  text-align: center;
+}
+.left_text {
+  background-color: white;
+  width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_side { 
+  background-color: red;
+  width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_side {
+  background-color: yellow;
+  width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.right_text {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 90%;
+}
+
+@media screen and (min-width: 460px) {
+  
+  #header {
+    padding-bottom: 20%;
+  }
+  
+  h1 {
+  font-size: 5em;
+  overflow: auto;
+  margin-top: 0em;
+  margin-bottom: 1.3em;
+}
+  h2 {
+  margin-top: 1.7em;
+  margin-bottom: 2.1em;
+  padding-top: 0em;
+  font-size: 3em;
+}
+}
+
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 6em;
+    margin-bottom: 1em;
+  }
+  
+  h2 {
+    font-size: 4em;
+    margin-top: 1.2em;
+    margin-bottom: 1.5em;
+  }
+
+.box {
+  display: flex;
+  flex-flow: row;
+}
+  
+}
+@media screen and (min-width: 725px) {
+  
+  h1 {
+    font-size: 8em;
+    margin-bottom: .7em;
+  }
+  
+  h2 {
+    font-size: 4.7em;
+    margin-top: 1.1em;
+    margin-bottom: 1.3em;
+  }
+}
+
+@media screen and (min-width: 810px) {
+  
+  h1 {
+    font-size: 9em;
+    
+  }
+  
+  h2 {
+    font-size: 5em;
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+  }  
+}
+
+@media screen and (min-width: 890px) {
+  
+  h1 {
+    font-size: 9.5em;
+
+  }
+  
+  h2 {
+    font-size: 5.5em;
+  }
+}
